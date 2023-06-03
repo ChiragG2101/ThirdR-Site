@@ -733,16 +733,18 @@ const Khatam: NextPage = () => {
             />
             <div className="flex flex-row p-2.5 items-start justify-start sm:flex-1 sm:h-auto">
               <div className="relative leading-[108.3%] font-medium inline-block w-[275px] shrink-0 lg:text-lg sm:text-left sm:flex-1 sm:self-stretch sm:h-auto mq1380:text-base mq1280:text-sm mq1280:w-40 mq1012:text-xs">
-                We use the latest technology and best practices to develop your
-                website, optimizing it for fast loading, responsiveness, and SEO
+                Whether it's WordPress or fully hardcoded solutions, we deliver
+                tailored websites that showcase your unique brand and meet your
+                specific requirements.
               </div>
             </div>
           </div>
           <div className="rounded-xl bg-blanchedalmond flex flex-row py-5 px-10 items-center justify-start gap-[20px] md:py-2.5 md:px-[30px] md:box-border sm:flex-1 sm:h-auto sm:gap-[5px] sm:py-5 sm:px-2.5 sm:box-border">
             <div className="flex flex-row p-2.5 items-start justify-start sm:flex-1 sm:h-auto">
               <div className="relative leading-[108.3%] font-medium inline-block w-[275px] shrink-0 lg:text-lg sm:text-left sm:flex-1 sm:self-stretch sm:h-auto mq1380:text-base mq1280:text-sm mq1280:w-40 mq1012:text-xs">
-                We use the latest technology and best practices to develop your
-                website, optimizing it for fast loading, responsiveness, and SEO
+                Create unique graphics and illustrations that reflect your brand
+                and create a memorable identity that capture the essence of your
+                brand, helping you stand out from others in your industry.
               </div>
             </div>
             <img
@@ -761,16 +763,18 @@ const Khatam: NextPage = () => {
             />
             <div className="flex flex-row p-2.5 items-start justify-start sm:flex-1 sm:h-auto">
               <div className="relative leading-[108.3%] font-medium inline-block w-[275px] shrink-0 lg:text-lg sm:text-left sm:flex-1 sm:self-stretch sm:h-auto mq1380:text-base mq1280:text-sm mq1280:w-40 mq1012:text-xs">
-                We use the latest technology and best practices to develop your
-                website, optimizing it for fast loading, responsiveness, and SEO
+                We implements effective SEO strategies to improve your website's
+                search engine rankings, drive organic traffic, and enhance your
+                online presence.
               </div>
             </div>
           </div>
           <div className="rounded-xl bg-mistyrose flex flex-row py-5 px-10 items-center justify-start gap-[20px] md:py-2.5 md:px-[30px] md:box-border sm:gap-[5px] sm:py-5 sm:px-2.5 sm:box-border">
             <div className="flex flex-row p-2.5 items-start justify-start sm:flex-1 sm:h-auto">
               <div className="relative leading-[108.3%] font-medium inline-block w-[275px] shrink-0 lg:text-lg sm:text-left sm:flex-1 sm:self-stretch sm:h-auto mq1380:text-base mq1280:text-sm mq1280:w-40 mq1012:text-xs">
-                We use the latest technology and best practices to develop your
-                website, optimizing it for fast loading, responsiveness, and SEO
+                We ensure a seamless and successful website launch, utilizing
+                our expertise to optimize performance, enhance user experience,
+                and maximize visibility.
               </div>
             </div>
             <img
@@ -1224,36 +1228,54 @@ const Khatam: NextPage = () => {
               <b className="relative lg:text-11xl">Third R</b>
             </div>
             {/* Social Media Footer */}
-            {/* <div className="self-stretch flex flex-row items-start justify-between">
-              <button className="cursor-pointer [border:none] p-[3px] bg-[transparent] overflow-hidden flex flex-row items-start justify-start">
+            <div className="self-stretch flex flex-row items-start justify-between">
+              {/* <button className="cursor-pointer [border:none] p-[3px] bg-[transparent] overflow-hidden flex flex-row items-start justify-start">
                 <img
                   className="relative w-[30px] h-[30px] lg:w-5 lg:h-5 mq1280:w-5 mq1280:h-5 mq1012:w-5 mq1012:h-5"
                   alt=""
                   src="/vector11.svg"
                 />
+              </button> */}
+              <button className="cursor-pointer [border:none] p-[3px] bg-[transparent] overflow-hidden flex flex-row items-start justify-start">
+                <a
+                  href="https://twitter.com/third_r23"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    className="relative w-[30px] h-[30px] lg:w-5 lg:h-5"
+                    alt=""
+                    src="/vector4.svg"
+                  />
+                </a>
               </button>
               <button className="cursor-pointer [border:none] p-[3px] bg-[transparent] overflow-hidden flex flex-row items-start justify-start">
-                <img
-                  className="relative w-[30px] h-[30px] lg:w-5 lg:h-5"
-                  alt=""
-                  src="/vector21.svg"
-                />
+                <a
+                  href="https://www.linkedin.com/company/third-r"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    className="relative w-[30px] h-[30px] lg:w-5 lg:h-5"
+                    alt=""
+                    src="/vector21.svg"
+                  />
+                </a>
               </button>
               <button className="cursor-pointer [border:none] p-[3px] bg-[transparent] overflow-hidden flex flex-row items-start justify-start">
-                <img
-                  className="relative w-[30px] h-[30px] lg:w-5 lg:h-5"
-                  alt=""
-                  src="/vector3.svg"
-                />
+                <a
+                  href="https://www.fiverr.com/thirdr_in/develop-full-stack-websites-using-mern-reactjs-nextjs"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    className="relative w-[30px] h-[30px] lg:w-5 lg:h-5"
+                    alt=""
+                    src="/vector3.svg"
+                  />
+                </a>
               </button>
-              <button className="cursor-pointer [border:none] p-[3px] bg-[transparent] overflow-hidden flex flex-row items-start justify-start">
-                <img
-                  className="relative w-[30px] h-[30px] lg:w-5 lg:h-5"
-                  alt=""
-                  src="/vector4.svg"
-                />
-              </button>
-            </div> */}
+            </div>
           </div>
           <div className="self-stretch flex flex-col py-4 px-0 items-start justify-start gap-[10px] sm:gap-[0px] sm:items-center sm:justify-center sm:pt-0 sm:pb-0 sm:box-border">
             <button className="cursor-pointer [border:none] p-2.5 bg-[transparent] self-stretch flex flex-row items-start justify-start sm:items-center sm:justify-center">
